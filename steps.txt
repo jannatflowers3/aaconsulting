@@ -1,0 +1,10 @@
+1.composer create-project laravel/laravel:^9.0 example-app
+2. composer require laravel/jetstream
+IF ANY ERROR 
+composer require laravel/jetstream:*
+3. php artisan jetstream:install livewire
+4. npm install
+5. npm run build / npm run dev
+
+###   noturn kore migrateion korle ### 
+php artisan migrate:refresh --seed 

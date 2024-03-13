@@ -1,0 +1,120 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+.top_header{
+    font-size: 14px;
+    margin-left: 0px!important;
+    padding: 0pxx!important;
+}
+.report_submit{
+    margin: 30px 109px;
+}
+.date_report {
+    /* margin: 0px!important; */
+}
+.attendance_report{
+    margin-top: 90px;
+}
+.responsiteh1{
+    font-size: 27px!important;
+    padding: 17px 0px!important;
+    margin-left: 30px!important;
+    margin-left: 27px!important; 
+}
+.headerbody p {
+    margin-left: 53px;
+}
+.loginauthentication {
+    float: none;
+}
+.contactinfo {
+    margin-top: 125px;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .top_header{
+        font-size: 20px;
+        margin-left: 0px!important;
+    }
+    .report_submit{
+        margin: 30px 160px;
+    }
+    .date_report {
+        margin: 0px!important;
+    }
+    .attendance_report{
+        margin-top: 40px;
+    }
+    .responsiteh1{
+        font-size: 40px!important;
+        padding: 17px 0px!important;
+        margin-left: 30px!important;
+        margin-left: 27px!important; 
+    }
+    .headerbody p {
+        margin-left: 53px;
+    }
+    .loginauthentication {
+        float: none;
+    }
+    .contactinfo {
+        margin-top: 125px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .top_header{
+        font-size: 20px;
+        margin-left: 0px!important;
+    }
+    .report_submit{
+        margin: 30px 160px;
+    }
+    .date_report {
+        margin: 0px!important;
+    }
+    .attendance_report{
+        margin-top: 40px;
+    }
+    .responsiteh1{
+        font-size: 45px!important;
+        padding: 17px 0px!important;
+        margin-left: 30px!important;
+        margin-left: 27px!important; 
+    }
+    .headerbody p {
+        margin-left: 53px;
+    }
+    .loginauthentication {
+        float: none;
+    }
+    .contactinfo {
+        margin-top: 125px;
+    }
+ 
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .top_header{
+        font-size: 20px;
+        margin-left: 0px!important;
+    }
+    .report_submit{
+        margin: 30px 160px;
+    }
+    .date_report {
+        margin: 0px!important;
+    }
+    .attendance_report{
+        margin-top: 40px;
+    }
+  
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }

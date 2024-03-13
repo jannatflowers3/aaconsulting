@@ -1,0 +1,598 @@
+* {
+    box-sizing: border-box;
+  }
+  .navbar_bg{
+    background-color: #fff;
+  }
+.carasol_heading{
+    font-size: 50px;
+    color: #Fff;
+padding: none!important;
+}
+.logostyle{
+    height: 60px;
+}
+.logoheading{
+    font-size: 25px;
+}
+small{
+    color: #fff;
+}
+.custom_text_primary{
+    color: #021e8b;
+}
+.custom_bg_primary{
+    background-color: #112678;
+
+}
+.custom_bg_primary:hover{
+    background-color: #0123a7;
+    cursor: pointer;
+}
+.associated_heading{
+    font-weight: 900;
+    color: #112678;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+.btn_primary{
+    background-color: #112678!important;
+    border:1px solid #112678!important;
+    color: #fff!important;
+}
+.btn_primary:hover{
+
+    background-color: #0829ab!important;
+    border:1px solid #0829ab!important;
+}
+
+.custom_border{
+    border:2px solid #0527ab!important;
+}
+.dedicted_part{
+    padding:55px 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 0px 54px 0px;
+}
+.dedicted_part:hover{
+    background-color: #031037;
+    color: #fff;
+    transition: 0.4s;
+}
+.dedicted_part:hover h4{
+    color: #fff;
+}
+/* services section start */
+.services_title{
+    border:2px solid #082fc8;
+}
+.services_title:hover{
+    background-color: #112678;
+    border:1px solid #112678;
+    color: #fff;
+
+}
+.servies_heading{
+    font-size: 30px;
+}
+
+/* about us page */
+.about_us{
+    margin-bottom: 100px;
+}
+.aboutus_titile{
+    font-size: 28px;
+}
+.expert_area_title{
+    font-size: 20px;
+    color: #fff;
+}
+.experties_heading{
+        padding: 13px;
+        color: #fff;
+        font-weight: 900;
+        width: 213px;
+    border: 2px solid #fff!important;
+}
+.experties_heading:hover{
+color: #fff;
+    background-color: #112678;
+    /* border: 1px solid #112678!important; */
+}
+.experties_card i{
+    width: 50px;
+    height: 50px;
+    background-color: #080d95;
+    border-radius: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.experties_card i:hover{
+    background-color: #252abb;
+}
+.mycarad{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-bottom: 20px;
+}
+.mycarad h5{
+font-size: 18px;
+}
+.mycarad p{
+font-size: 13px;
+
+}
+.mycarad a{
+   color: #252abb;
+    font-size: 13px;
+    font-weight: bold;
+}
+.mycarad:hover{
+    /* background-color: #090979; */
+    background: linear-gradient(to right, #000046, hsl(251, 90%, 33%));
+    /* background: rgb(2,0,36); */
+   color: #Fff;
+    cursor: pointer;
+}
+.mycarad:hover h5{
+   color: #Fff;
+}
+.mycarad:hover a{
+    color: #Fff;
+ }
+ .area_expert {
+    background: #011A41;
+}
+.priviour_title{
+    font-size: 20px;
+}
+.project_img{
+    width: 253px;
+    height: 182px;
+    /* border: 2px solid red */
+}
+.project_img img{
+    width: 100%;
+}
+
+
+/* privious_exprience slider */
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+  }
+.department{
+    background-color: #022862;
+    margin: 30px 0px;
+    padding: 60px 0px;
+   /* background-image:  url(../image/bg-circle.png), url(../image/bg-triangle.png), url(../image/bg-bottom.png), linear-gradient(to bottom right, #12236b, rgb(53, 10, 133)); */
+    background-position: left 0px top 0px, right 0px top 50%, center bottom;
+    background-repeat: no-repeat;
+}
+.department_title{
+    color: #fff;
+    border: 2px solid #fff!important;
+}
+.fedaral_img{
+    transition: 0.3s;
+    cursor: pointer;
+}
+.sports_img{
+  box-shadow: 0 4px 8px 0 rgba(38, 4, 228, 0.2), 0 6px 20px 0 rgba(8, 6, 126, 0.19);
+    cursor: pointer;
+    /* background-color: #0123a7!important; */
+}
+.privious_exprience{
+margin-bottom: 30px;
+padding: 60px 0px;
+color: #022862;
+}
+.priviour_expriencep{
+  font-size:17px;
+  color: #fff;
+}
+.Hospital_bg{
+  background-color: #0123a7;
+  transition: 0.3s;
+  cursor: pointer;
+  color: #Fff;
+}
+.Hospital_bg:hover{
+  background-color: #3451c3;
+}
+.fedaral_title{
+  color: #Fff;
+  border: 2px solid #fff!important;
+}
+.finalcial_bg{
+  background-color: #fff;
+  height: 124px;
+  border-radius: 20px;
+  width: 160px;
+}
+.fedaral_img:hover{
+    transform: scale(1.1);
+}
+ /* service page start */
+ .service_title{
+    color: #021e8b;
+    border: 2px solid #021e8b;
+    padding: 12px 35px;
+ }
+ .service_title:hover{
+    background-color: #021e8b;
+    color: #Fff;
+ }
+ .service_title2{
+    margin: 30px 0px;
+ }
+.serivces_bg{
+    width: 100%;
+    height: 85%;
+}
+.services_offer{
+    color: #fff;
+    border-bottom: 2px solid #Fff;
+    padding: 50px 0px;
+    margin-bottom: 95px;
+}
+.offer_accordian{
+    font-size: 26px;
+    color: #021e8b!important;
+    font-weight: 900;
+}
+.offer_accordian2{
+    font-size: 22px;
+}
+.offer_content p{
+    font-size: 14px;
+}
+.more_offer{
+    background-color: #112678;
+}
+/* product video */
+.Forescout2{
+    padding: 100px 0px;
+}
+.Forescout2_right{
+    padding-left: 45px;
+}
+/* seminar code start */
+.warpper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tab{
+    cursor: pointer;
+    padding:10px 20px;
+    margin:0px 2px;
+    background:#022862;
+    display:inline-block;
+    color:#fff;
+    border-radius:3px 3px 0px 0px;
+    box-shadow: 0 0.5rem 0.8rem #00000080;
+    margin-top: 12px;
+  }
+  .panels{
+    background:#fffffff6;
+    box-shadow: 0 2rem 2rem #00000080;
+    min-height:200px;
+    width:100%;
+    max-width:500px;
+    border-radius:3px;
+    overflow:hidden;
+    padding:20px;
+    margin-top: 30px;
+  }
+  .panel{
+    display:none;
+    animation: fadein .8s;
+  }
+  @keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+  .panel-title{
+    font-size:1.5em;
+    font-weight:bold
+  }
+  .radio{
+    display:none;
+  }
+  #one:checked ~ .panels #one-panel,
+#two:checked ~ .panels #two-panel,
+#three:checked ~ .panels #three-panel,
+#four:checked ~ .panels #four-panel,
+#five:checked ~ .panels #five-panel,
+#six:checked ~ .panels #six-panel{
+  display:block
+}
+#one:checked ~ .tabs #one-tab,
+#two:checked ~ .tabs #two-tab,
+#three:checked ~ .tabs #three-tab,
+#four:checked ~ .tabs #four-tab,
+#five:checked ~ .tabs #five-tab,
+#six:checked ~ .tabs #six-tab{
+    background:#fffffff6;
+    color:#000;
+    border-top: 3px solid #000;
+  }
+.allcontact_info{
+    border-right: 2px solid #fff;
+}
+  .contactphone p{
+    font-weight: 900;
+    font-size: 20px;
+  }
+.contactphone i{
+    font-size: 30px;
+    color: #023078;
+    padding: 15px 0px;
+}
+.contactphone {
+    margin:10px 0px
+}
+.contactphn h3{
+    font-size: 20px;
+}
+.bangladesh_contactinfo{
+    padding: 30px 0px;
+
+}
+.bangladeshimage{
+    margin-top: 30px;
+}
+.bangladesh{
+    border-top: 2px solid #fff;
+}
+.contact_title{
+    margin: 40px 0px;
+}
+.contact_title h1{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 20px;
+}
+
+.product2{
+    color: #022862;
+    padding: 7px 52px;
+}
+.myproduct{
+    overflow: hidden;
+
+}
+.myproduct img{
+    transition: 0.9s;
+}
+.myproduct:hover img{
+    transform: scale(1.1);
+}
+.contact_bd{
+    background-color: #022862;
+}
+/* seminar start */
+.seminar{
+    background-image: url("../image/banner2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    min-height: 600px;
+}
+.seminar_regi a{
+    background-color: #Fff;
+    color: #0527ab;
+    border: 2px solid #080d95;
+    width: 188px;
+    padding: 15px 33px;
+    border-radius: 50px;
+    font-weight: 900;
+}
+.seminarimg {
+    transition: 0.9s;
+}
+.seminarimg:hover img{
+    transform: scaleY(-5px);
+}
+.seminar_regi:hover a{
+    background-color: #080d95;
+    color: #fff;
+}
+.seminar_content{
+    margin-bottom: 60px;
+}
+.seminar_rgi2{
+    margin-top: 40px;
+}
+.seminar_content2{
+    margin-bottom: 160px;
+}
+.commn_semicolor{
+    color: #021e8b;
+}
+footer{
+    background-color: #022862;
+}
+/* home page */
+.associate_homeimg{
+    display: block;
+	overflow: hidden;
+    cursor: pointer;
+    border: 3px solid #fff;
+    /* border-radius: 0px 54px 0px; */
+    text-align: center;
+    line-height: 69px;
+    /* background: #0a2a5e;
+    padding: 20px; */
+}
+
+.associate_hoverimg{
+    border-radius: 40px 0px 40px;
+}
+.associate_homeimg:hover img{
+    transform: scale3d(1.3,1.3,1);
+    transition: transform 2s ease-in-out;
+}
+/* training design  */
+.traning_title{
+
+}
+.traning_title p{
+font-size: 16px;
+}
+.traning_title h2{
+font-size: 40px;
+padding: 20px 0px;
+border-bottom: 3px solid #fff;
+}
+
+/* cyber offering start */
+.vulscan_title h1{
+    font-size: 60px;
+    color: #021e8b;
+    text-transform: uppercase;
+}
+.vulscan_title_p {
+    font-size: 15px;
+    color: #021e8b;
+    font-weight: 900;
+}
+.vulscan_title p{
+    font-size: 18px;
+}
+.vulscan_features{
+    color: #021e8b;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #021e8b;
+}
+.vulscan_left, .vulscan_right{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px 0px;
+padding: 10px;
+background: #031037;
+    color: #fff;
+}
+.vulscan_left:hover, .vulscan_right:hover{
+    background: #000046;
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.vulscan_left li, .vulscan_right li{
+border-bottom: 3px solid #021e8b;
+}
+.vulscan_left p, .vulscan_right p{
+    font-size: 14px;
+}
+.product_title h1{
+    font-size: 40px;
+}
+.product_title p{
+    font-size: 20px;
+}
+.access_data{
+    background-image: url('../image/cyber_product/3.jpg');
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   background-position:center center;
+}
+.cybersecurity{
+    background-image: url('../image/cyber_product/threatlockerbg.png');
+}
+.datatheft{
+    min-height: 300px;
+}
+ .overlay {
+       width: 100%;
+        /* height: 500px; */
+        background-color: rgb(2 4 6 / 70%);
+        padding: 60px;
+   }
+
+.vulscan_business{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    min-height: 425px;
+    padding: 2px 20px;
+   background: linear-gradient(to right, #1CB5E0, #000046);
+  color: #fff;
+   }
+   .vulscan_business:hover{
+    background: linear-gradient(to right, #771ce0, #2323d4);
+   }
+.vulscan_business h4{
+    color: #Fff;
+}
+.vulscan_business img{
+    width: 90px;
+    color: #031037;
+    padding: 15px
+}
+/* vpentest page start */
+.pentest_point{
+    color: #08164d;
+    font-weight: 800;
+    margin-top: 80px;
+}
+.vpentest_p{
+    color: #000;
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.pentest_part{
+    background-color: #031037;
+}
+  .pentest_dedicat{
+    background-color: #031037;
+    color: #fff;
+  }
+  .pentest_dedicat h4{
+    color: #fff;
+  }
+  .pentest_dedicat:hover{
+    background-color: #051763;
+  }
+  .vpentest_height{
+    min-height: 500px;
+  }
+  .zero_trustbg{
+    background-color: #050a30!important;
+  }
+  .cyberStandingbg{
+    background-color: #051763;
+  }
+  .video_widht{
+    width: 550px;
+    height: 350px;
+  }
+  .video_widht iframe{
+    width: 100%;
+    height: 100%;
+  }
+ /* contact form */
+
+ .contact_form{
+    padding: 20px 25px;
+
+ }
+ .contact_form:hover{
+    background-color: #000046;
+ }
+ .topbanner_margin{
+    margin-left:25px;
+ }
